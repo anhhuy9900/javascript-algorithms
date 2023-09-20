@@ -5,19 +5,19 @@ javascript-algorithms
 What is an algorithm? Put simply, an algorithm is a step-by-step procedure for solving a problem. Algorithms can be written in any programming language, but they all share some common characteristics. First and foremost, algorithms are sequence tasks. That means that the steps in the algorithm must be done in order, and each step depends on the results of the previous steps. Secondly, algorithms are deterministic: given the same input data, exactly the same program will produce the same output every time. Finally, there are some measures for an algorithm to be efficient. Time and space: those two measures determine how efficient your algorithm is.
 
 #### Problem Solving
-- ###### OBJECTIVES
+- ##### OBJECTIVES
     - Define what an algorithm is
     - Obtain a description of the problem
     - Devise a plan to solve algorithms / Analyze the problem
     - Compare and contrast problem solving patterns including frequency counters, two pointer problems and divide and conquer
-- ###### Understand the Problem
+- ##### Understand the Problem
     - The goal of any algorithm is to solve a problem.  When solving an algorithm problem, it is important to understand the problem and the steps involved in solving it. This understanding will allow you to correctly follow the instructions and complete the task
         - Can I restate the problem in my own words?
         - What are the inputs that go into the problem?
         - What are the outputs that should come from the solution to the problem?
         - Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem? (You may not be able to answer this question until you set about solving the problem. That's okay; it's still worth considering the question at this early stage.)
         - How should I label the important pieces of data that are a part of the problem?
-- ###### Explore Concrete Examples
+- ##### Explore Concrete Examples
     - Start with Simple Examples
         - Write simple function
         ```
@@ -31,7 +31,7 @@ What is an algorithm? Put simply, an algorithm is a step-by-step procedure for s
         - countArray()
     - Explore Examples with Invalid Inputs
         - countArray("string")
-- ###### Break It Down
+- ##### Break It Down
     - When solving algorithms problems, breaking them down into smaller parts is usually the best way to go. Once you understand how each part works and interacts with the others, you can solve the problem more quickly.
     - This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.
         - Find the core difficulty in what you're trying to do
@@ -51,13 +51,13 @@ What is an algorithm? Put simply, an algorithm is a step-by-step procedure for s
         }
         ```
 
-- ###### Solve / Simplify
+- ##### Solve / Simplify
     - Find the core difficulty in what you're trying to do
     - Temporarily ignore that difficulty
     - Write a simplified solution``````
     - Then incorporate that difficulty back in
 
-- ###### Look Back and Refactor
+- ##### Look Back and Refactor
     - Can you check the result?
         - When we already finished the feature, we need think about how to check the result of the feature
     - How do you test it?
@@ -85,7 +85,7 @@ What is an algorithm? Put simply, an algorithm is a step-by-step procedure for s
     - Dynamic Programming
     - Greedy Algorithms
     - Backtracking
-    - Recap :
+    - ###### Recap:
         - Developing a problem solving approach is incredibly important
         - Thinking about code before writing code will always make you solve problems faster
         - Be mindful about problem solving patterns           
