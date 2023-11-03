@@ -38,8 +38,7 @@
     - Repeat until the array is sorted.
     ![Screenshot](./insertion/1.png)
 
-#### Big O of Sorting Algorithms
-- ![Screenshot](./campare-big-o.png)
+
 
 #### MERGE SORT
 - Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
@@ -47,4 +46,46 @@
     - It's a combination of two things - merging and sorting!
     - Exploits the fact that arrays of 0 or 1 element are always sorted
     - Works by decomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array
+- How does Merge Sort work?
     ![Screenshot](./merge/1.png)
+
+#### QUICK SORT
+- QuickSort is a sorting algorithm based on the [Divide and Conquer algorithm](https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm-data-structure-and-algorithm-tutorials/) that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
+    - Like merge sort, exploits the fact that arrays of 0 or 1 element are always sorted
+    - Works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array
+    - Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot
+    ![Screenshot](./quick/images/big-o.png)
+- https://www.geeksforgeeks.org/quick-sort/
+- How does QuickSort work?
+![Screenshot](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png)
+Best case
+![Screenshot](./quick/images/best-case-1.png)
+![Screenshot](./quick/images/best-case-2.png)
+![Screenshot](./quick/images/best-case-3.png)
+![Screenshot](./quick/images/best-case-4.png)
+![Screenshot](./quick/images/best-case-5.png)
+![Screenshot](./quick/images/best-case-6.png)
+
+Worst case
+![Screenshot](./quick/images/worst-case.png)
+
+
+#### RADIX SORT
+- Radix Sort is a linear sorting algorithm that sorts elements by processing them digit by digit. It is an efficient sorting algorithm for integers or strings with fixed-size keys. 
+- Radix sort is a special sorting algorithm that works on lists of numbers. It never makes comparisons between elements! It exploits the fact that information about the size of a number is encoded in the number of digits. 
+- https://www.geeksforgeeks.org/radix-sort/
+- How does it work?
+    ![Screenshot](./radix/images/w-1.png)
+    ![Screenshot](./radix/images/w-2.png)
+    ![Screenshot](./radix/images/w-3.png)
+- Big O
+    - ![Screenshot](./radix/images/big-o.png)
+
+## Summary
+- #### Big O of Sorting Algorithms
+![Screenshot](./campare-big-o.png)
+- Bubble sort, selection sort, and insertion sort are all roughly equivalent. All have average time complexities that are quadratic
+- Merge sort and quick sort are standard efficient sorting algorithms
+- Quick sort can be slow in the worst case, but is comparable to merge sort on average
+- Merge sort takes up more memory because it creates a new array (in-place merge sorts exist, but they are really complex!)
+- Radix sort is a fast sorting algorithm for numbers
