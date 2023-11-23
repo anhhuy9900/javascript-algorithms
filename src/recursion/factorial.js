@@ -12,9 +12,10 @@ function factorial(num) {
 
 console.log('factorial(4): ', factorial(4));
 
-function factorialRecursion(num) {
-    if (!num) return 1;
-    return num * factorialRecursion(num - 1)
-}
 
+
+function factorialRecursion(val) {
+    if (val < 1 ) return 1;
+    return val * factorial(--val)
+}
 console.log('factorialRecursion(4): ', factorialRecursion(4));

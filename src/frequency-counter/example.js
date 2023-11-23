@@ -89,3 +89,5 @@ function findSameValueRefactor(arr1 = [], arr2 = []) {
 console.log('findSameValueRefactor => case 1: ', findSameValueRefactor([1, 2, 3], [4, 1, 9]));
 console.log('findSameValueRefactor => case 2: ', findSameValueRefactor([1, 2, 3], [1, 9]));
 console.log('findSameValueRefactor => case 3: ', findSameValueRefactor([1, 2, 1], [4, 4, 1]));
+
+

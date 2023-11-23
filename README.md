@@ -90,4 +90,8 @@ What is an algorithm? Put simply, an algorithm is a step-by-step procedure for s
         - Thinking about code before writing code will always make you solve problems faster
         - Be mindful about problem solving patterns           
         - Using frequency counters, multiple pointers, sliding window and divide and conquer will help you reduce time and space complexity and help solve more challenging problems
-    
+    - References:
+        - https://github.com/devvsakib/javascript-problem-solving
+        - https://github.com/4GeeksAcademy/master-javascript-programming-exercises/tree/main/exercises
+        - https://github.com/jfarmer/exercises-js-fundamentals/tree/master/exercises
+        - https://practice.geeksforgeeks.org/explore?page=3&sortBy=submissions
